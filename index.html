@@ -12,9 +12,17 @@
 </head>
 
 <body class="home">
-  <header class="hero">
+  <header class="hero-full">
+    <div class="hero-background">
+      <img src="./img/space-debris.webp" alt="Space debris orbiting Earth">
+      <div class="overlay"></div>
+    </div>
+
     <div class="container">
       <nav class="navbar">
+        <div class="logo">
+          <h3>Orbital Watch</h3>
+        </div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#features">Features</a></li>
@@ -22,14 +30,23 @@
           <li><a href="#future">Future</a></li>
         </ul>
       </nav>
+
       <div class="hero-content">
         <h1>Orbital Watch</h1>
         <p class="tagline">Visualize collisions between satellites and space
           debris​</p>
+        <div class="btn-container">
+          <a href="#about" class="btn">Learn More</a>
+        </div>
       </div>
     </div>
-  </header>
 
+    <div class="image-credit">
+      Image credit: <a
+        href="https://www.esa.int/Space_Safety/Clean_Space/ESA_s_Zero_Debris_approach"
+        target="_blank" rel="noopener noreferrer">ESA</a>.
+    </div>
+  </header>
   <main class="container">
     <section id="about" class="section">
       <h2>About the Project</h2>
@@ -50,6 +67,11 @@
         of collisions in space. Satellite models have been imported from NASA's
         publicly available 3D model library.
       </p>
+      <p>The client requesting the project was Pål Gunnar Ellingsen, an
+        Associate
+        professor within satelite technology and remote sensing at the
+        Department of
+        Electrical Engineering at UiT</p>
     </section>
 
     <section id="features" class="section">
@@ -96,44 +118,6 @@
       </div>
     </section>
 
-    <section id="project-origin" class="section">
-      <h2>Project Origin</h2>
-      <div class="content-container">
-        <div class="text">
-          <p>
-            During the spring of 2025 a project was added to the Bachelor of
-            Computer
-            Science at UiT The Arctic University of Norway called "Visualization
-            of
-            collisions between satellites and space debris". The project's main
-            requirements were to create a visual tool which could simulate
-            simple
-            collisions between satellites and space debris. The tool was to be
-            used
-            during teaching so that more students (and other potential
-            stakeholders) can
-            learn more about the effects of space debris.
-          </p>
-          <p>
-            The client requesting the project was Pål Gunnar Ellingsen, an
-            Associate
-            professor within satelite technology and remote sensing at the
-            Department of
-            Electrical Engineering at UiT. The head advisor the project was
-            Frode Nesje,
-            Assistant Professor at the Department of Computer Science and
-            Computational
-            Engineering at UiT.
-          </p>
-        </div>
-        <div class="image">
-          <img
-            src="https://placehold.co/400x300/001220/ffffff?text=Project+Origin"
-            alt="Project Origin">
-        </div>
-      </div>
-    </section>
-
     <section id="team" class="section">
       <h2>The Team</h2>
       <p>
@@ -144,23 +128,21 @@
       </p>
       <div class="team-grid">
         <div class="team-member">
-          <img src="https://placehold.co/150x150/001220/ffffff?text=M"
+          <img src="./img/Bilde-MadeleineWoodbury.webp"
             alt="Madeleine Woodbury">
           <h3>Madeleine Woodbury</h3>
         </div>
         <div class="team-member">
-          <img src="https://placehold.co/150x150/001220/ffffff?text=O"
-            alt="Ola Giæver">
+          <img src="./img/Bilde-OlaGiæver.webp" alt="Ola Giæver">
           <h3>Ola Giæver</h3>
         </div>
         <div class="team-member">
-          <img src="https://placehold.co/150x150/001220/ffffff?text=G"
+          <img src="./img/Bilde-GabrielHalstensen.webp"
             alt="Gabriel Halstensen">
           <h3>Gabriel Halstensen</h3>
         </div>
         <div class="team-member">
-          <img src="https://placehold.co/150x150/001220/ffffff?text=I"
-            alt="Ingrid Ledingham">
+          <img src="./img/Bilde-IngridLedingham.webp" alt="Ingrid Ledingham">
           <h3>Ingrid Ledingham</h3>
         </div>
       </div>
@@ -169,11 +151,15 @@
     <section id="challenges" class="section">
       <h2>Technical Challenges</h2>
       <div class="content-container">
-        <div class="image">
-          <img
-            src="https://placehold.co/400x300/001220/ffffff?text=High+Speed+Collisions"
-            alt="High Speed Collisions">
-        </div>
+        <figure class="image">
+          <img src="./img/hypervelocity-impact-testing.webp"
+            alt="High Speed Collision test">
+          <figcaption>
+            High-speed collision testing. Image credit: <a
+              href="https://www.esa.int/ESA_Multimedia/Images/2018/02/Hypervelocity_impact_testing"
+              target="_blank" rel="noopener noreferrer">ESA</a>.
+          </figcaption>
+        </figure>
         <div class="text">
           <p>
             The main challenge of simulating collisons between space debris is
@@ -222,29 +208,10 @@
         holds
         potential for further development — possibly as part of a Master of
         Applied
-        Science assignment. Future improvements could include:
-      </p>
-      <ul class="future-features">
-        <li class="future-feature">
-          <p>More research into real space physics, enabling more accurate
-            depictions of collisions in orbit</p>
-        </li>
-        <li class="future-feature">
-          <p>Experimenting with more advanced game engines, such as Unreal, to
-            enhance graphical quality</p>
-        </li>
-        <li class="future-feature">
-          <p>Additional customization options and simulation parameters</p>
-        </li>
-      </ul>
-      <p>
-        Further development would likely require additional time and resources
+        Science assignment. Further development would likely require additional
+        time and resources
         to
-        reach a higher level of simulation fidelity. But much like in the world
-        of
-        video games, there's always room for a sequel — one with higher
-        resolution
-        and even more content.
+        reach a higher level of simulation fidelity.
       </p>
     </section>
   </main>
@@ -256,6 +223,43 @@
       </div>
     </div>
   </footer>
+
+  <script>
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+      // Function to generate Gravatar URL
+      function getGravatarURL(email, size = 150, defaultImage = 'mp') {
+        // Convert email to lowercase and trim
+        const trimmedEmail = email.trim().toLowerCase();
+
+        // Create an MD5 hash of the email
+        const hash = CryptoJS.MD5(trimmedEmail).toString();
+
+        // Return the Gravatar URL
+        return `https://www.gravatar.com/avatar/${hash}?s=${size}&d=${defaultImage}`;
+      }
+
+      // Example usage for your team members
+      const teamMembers = [
+        { name: 'Madeleine Woodbury', email: 'madeleine@example.com' },
+        { name: 'Ola Giæver', email: 'ola@example.com' },
+        { name: 'Gabriel Halstensen', email: 'gabriel@example.com' },
+        { name: 'Ingrid Ledingham', email: 'ingrid@example.com' }
+      ];
+
+      // Get all team member image elements
+      const teamImages = document.querySelectorAll('.team-member img');
+
+      // Update each image src with the appropriate Gravatar URL
+      teamImages.forEach((img, index) => {
+        if (index < teamMembers.length) {
+          img.src = getGravatarURL(teamMembers[index].email);
+          img.alt = teamMembers[index].name;
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
