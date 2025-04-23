@@ -12,9 +12,250 @@
 </head>
 
 <body class="home">
-  <div class="container">
-    <h1>Orbital Watch</h1>
-  </div>
+  <header class="hero">
+    <div class="container">
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#future">Future</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <h1>Orbital Watch</h1>
+        <p class="tagline">Visualize collisions between satellites and space
+          debris​</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="section">
+      <h2>About the Project</h2>
+      <p>
+        New technology and the commercialization of satellite systems have led
+        to an increasing number of satellites being launched into space. When
+        objects
+        break apart or collide in orbit, they create what is known as space
+        debris. More research is needed to understand the effects space debris
+        has on
+        satellites, but raising awareness is where it begins.
+      </p>
+      <p>
+        Orbital Watch is a visual tool created to simulate simple collisions
+        between satellites and space debris. Developed using the Unity game
+        engine and Blender for 3D modeling, Orbital Watch provides a visual
+        representation
+        of collisions in space. Satellite models have been imported from NASA's
+        publicly available 3D model library.
+      </p>
+    </section>
+
+    <section id="features" class="section">
+      <h2>Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              fill="#000000" viewBox="0 0 256 256">
+              <path
+                d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z">
+              </path>
+            </svg>
+          </div>
+          <h3>Educational Tool</h3>
+          <p>Show students the growing challenge of space debris</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              fill="#000000" viewBox="0 0 256 256">
+              <path
+                d="M224,48V96a8,8,0,0,1-8,8H168a8,8,0,0,1,0-16h28.69L182.06,73.37a79.56,79.56,0,0,0-56.13-23.43h-.45A79.52,79.52,0,0,0,69.59,72.71,8,8,0,0,1,58.41,61.27a96,96,0,0,1,135,.79L208,76.69V48a8,8,0,0,1,16,0ZM186.41,183.29a80,80,0,0,1-112.47-.66L59.31,168H88a8,8,0,0,0,0-16H40a8,8,0,0,0-8,8v48a8,8,0,0,0,16,0V179.31l14.63,14.63A95.43,95.43,0,0,0,130,222.06h.53a95.36,95.36,0,0,0,67.07-27.33,8,8,0,0,0-11.18-11.44Z">
+              </path>
+            </svg>
+          </div>
+          <h3>Multi-Angle Observation</h3>
+          <p>Observe collisions from different angles and how they affect
+            various satellites</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              fill="#000000" viewBox="0 0 256 256">
+              <path
+                d="M176,232a8,8,0,0,1-8,8H88a8,8,0,0,1,0-16h80A8,8,0,0,1,176,232Zm40-128a87.55,87.55,0,0,1-33.64,69.21A16.24,16.24,0,0,0,176,186v6a16,16,0,0,1-16,16H96a16,16,0,0,1-16-16v-6a16,16,0,0,0-6.23-12.66A87.59,87.59,0,0,1,40,104.49C39.74,56.83,78.26,17.14,125.88,16A88,88,0,0,1,216,104Zm-16,0a72,72,0,0,0-73.74-72c-39,.92-70.47,33.39-70.26,72.39a71.65,71.65,0,0,0,27.64,56.3A32,32,0,0,1,96,186v6h64v-6a32.15,32.15,0,0,1,12.47-25.35A71.65,71.65,0,0,0,200,104Zm-16.11-9.34a57.6,57.6,0,0,0-46.56-46.55,8,8,0,0,0-2.66,15.78c16.57,2.79,30.63,16.85,33.44,33.45A8,8,0,0,0,176,104a9,9,0,0,0,1.35-.11A8,8,0,0,0,183.89,94.66Z">
+              </path>
+            </svg>
+          </div>
+          <h3>Raise Awareness</h3>
+          <p>Learn how space debris is a growing concern and why further
+            research is needed</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="project-origin" class="section">
+      <h2>Project Origin</h2>
+      <div class="content-container">
+        <div class="text">
+          <p>
+            During the spring of 2025 a project was added to the Bachelor of
+            Computer
+            Science at UiT The Arctic University of Norway called "Visualization
+            of
+            collisions between satellites and space debris". The project's main
+            requirements were to create a visual tool which could simulate
+            simple
+            collisions between satellites and space debris. The tool was to be
+            used
+            during teaching so that more students (and other potential
+            stakeholders) can
+            learn more about the effects of space debris.
+          </p>
+          <p>
+            The client requesting the project was Pål Gunnar Ellingsen, an
+            Associate
+            professor within satelite technology and remote sensing at the
+            Department of
+            Electrical Engineering at UiT. The head advisor the project was
+            Frode Nesje,
+            Assistant Professor at the Department of Computer Science and
+            Computational
+            Engineering at UiT.
+          </p>
+        </div>
+        <div class="image">
+          <img
+            src="https://placehold.co/400x300/001220/ffffff?text=Project+Origin"
+            alt="Project Origin">
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="section">
+      <h2>The Team</h2>
+      <p>
+        The project was taken on by the dev team of Arctic Sprint Solutions 2.0,
+        consisting of four graduating students in the field of Bachelor of
+        Computer
+        Science (Datateknikk) at UiT:
+      </p>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="https://placehold.co/150x150/001220/ffffff?text=M"
+            alt="Madeleine Woodbury">
+          <h3>Madeleine Woodbury</h3>
+        </div>
+        <div class="team-member">
+          <img src="https://placehold.co/150x150/001220/ffffff?text=O"
+            alt="Ola Giæver">
+          <h3>Ola Giæver</h3>
+        </div>
+        <div class="team-member">
+          <img src="https://placehold.co/150x150/001220/ffffff?text=G"
+            alt="Gabriel Halstensen">
+          <h3>Gabriel Halstensen</h3>
+        </div>
+        <div class="team-member">
+          <img src="https://placehold.co/150x150/001220/ffffff?text=I"
+            alt="Ingrid Ledingham">
+          <h3>Ingrid Ledingham</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="challenges" class="section">
+      <h2>Technical Challenges</h2>
+      <div class="content-container">
+        <div class="image">
+          <img
+            src="https://placehold.co/400x300/001220/ffffff?text=High+Speed+Collisions"
+            alt="High Speed Collisions">
+        </div>
+        <div class="text">
+          <p>
+            The main challenge of simulating collisons between space debris is
+            the lack
+            of research on how collisions make objects behave in space. Objects
+            moving
+            through orbit typically travel at extremely high speeds - as much as
+            7
+            kilometers per second (25 000 kilomters/hour). Comparatively a rifle
+            bullet
+            moves at the speed of 1.2 kilomters/second, a mere fraction of this.
+            When
+            two objects collide in orbit at such velocities, the realtive
+            collision
+            speed might reach as much as 15 kilomters/second (54 000
+            kilometers/hour).
+          </p>
+          <p>
+            Simulating such high speed collisions can therefore be difficult.
+            Both when
+            simulating objects through physical experiments, as well as when
+            visualizing
+            collisions with tools such as Orbit Watch. It is hard to mimic
+            collision
+            effects that there is little to no real-world data available.
+          </p>
+          <p>
+            In order to create a visual tool for space debris collisions, it has
+            been
+            important to set aside attempts to capture how objects actually
+            behave in
+            space. The project has been commissioned to simulate simple
+            collisions, not
+            to provide accurate representations of how objects physically behave
+            in
+            orbit when colliding.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="future" class="section">
+      <h2>Future Development</h2>
+      <p>
+        Although Orbital Watch was created to simulate simple collisions, it
+        holds
+        potential for further development — possibly as part of a Master of
+        Applied
+        Science assignment. Future improvements could include:
+      </p>
+      <ul class="future-features">
+        <li class="future-feature">
+          <p>More research into real space physics, enabling more accurate
+            depictions of collisions in orbit</p>
+        </li>
+        <li class="future-feature">
+          <p>Experimenting with more advanced game engines, such as Unreal, to
+            enhance graphical quality</p>
+        </li>
+        <li class="future-feature">
+          <p>Additional customization options and simulation parameters</p>
+        </li>
+      </ul>
+      <p>
+        Further development would likely require additional time and resources
+        to
+        reach a higher level of simulation fidelity. But much like in the world
+        of
+        video games, there's always room for a sequel — one with higher
+        resolution
+        and even more content.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="copyright">
+        &copy; 2025 Arctic Sprint Solutions 2.0. All rights reserved.
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
