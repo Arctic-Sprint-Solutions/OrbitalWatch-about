@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
   line-height: 1.2;
   font-family: var(--secondary-font);
-  background-color: var(--primary-color);
+  background-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -255,7 +255,6 @@ a:hover {
   border: 3px solid var(--primary-color);
 }
 
-/* Project Origin and Challenges */
 .content-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -268,7 +267,6 @@ a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-/* Future Features */
 .future-features {
   margin: 2rem 0;
 }
@@ -329,7 +327,7 @@ footer {
     font-size: 1.75rem;
   }
   
-  .nav-links {
+  .nav-links, .logo {
     display: none;
   }
   
@@ -361,5 +359,10 @@ footer {
   
   .hero-full .tagline {
     font-size: 1.4rem;
+  }
+
+  .content-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
 }
